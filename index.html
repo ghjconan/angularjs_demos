@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href="content/css/site.css" rel="stylesheet"/>
+	</head>
+	<body ng-app="WeatherDemo">
+		<h1>Weather Query</h1>
+		
+		<div class="container" ng-view>
+			
+		</div>
+		
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+		<script src="client/WeatherDemo/app.module.js"></script>
+		<script src="client/WeatherDemo/app.route.js"></script>
+		<script src="client/WeatherDemo/services/weatherservice.js"></script>
+		<script src="client/WeatherDemo/controllers/search.js"></script>
+		<script src="client/WeatherDemo/models/forcast.js"></script>		
+		<script src="client/WeatherDemo/filters/asHtml.filter.js"></script>	
+		<script src="client/WeatherDemo/directives/search.directive.js"></script>	
+	</body>
+</html>

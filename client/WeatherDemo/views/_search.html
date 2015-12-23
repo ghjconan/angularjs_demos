@@ -1,0 +1,9 @@
+<form ng-submit="vm.submit(vm.name)">
+	<div>
+		<label>Enter city name:
+			<input type="name" id="name" name="name" ng-model="vm.name" placeholder="London" ng-enter="vm.submit(vm.name)">
+		</label>
+	</div>
+	<button type="submit">Query Now</button>
+</form>
+<div ng-bind-html="vm.forcast.name | asHtml"></div>
